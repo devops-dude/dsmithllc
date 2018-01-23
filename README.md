@@ -10,7 +10,7 @@ This repo is used to configure AWS accounts.
 * Enable AWS organzations on the master account and then enable organizations on other accounts.
 * Create an admin group and policy from the IAM master account to other accounts. [Instructions](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_accounts_access.html#orgs_manage_accounts_access-cross-account-role)
 * Create roles in the non-IAM master account(s) to provide access via Assume Role.
-
+* Create Dockerhub image to build cloudformation templates [Dockerhub](https://hub.docker.com/r/dsmithatx/alpine-aws/)
 
 
 ### Templates/Stacks
